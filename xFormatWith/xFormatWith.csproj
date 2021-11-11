@@ -1,0 +1,41 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+		<Title>xFormatWith</Title>
+		<Product>xFormatWith</Product>
+		<Description>Simple string eXtension methods for performing {named} {{parameterized}} string formatting, written for NetStandard 2.0</Description>
+		<AssemblyName>xFormatWith</AssemblyName>
+		<AssemblyTitle>xFormatWith</AssemblyTitle>
+		<PackageId>xFormatWith</PackageId>
+		<VersionPrefix>0.0.1</VersionPrefix>
+		<VersionSuffix>alpha-1</VersionSuffix>
+		<Authors>Overwatch (Preuss)</Authors>
+		<Copyright>Copyright © Overwatch (Preuss) 2021 - 2076</Copyright>
+		<PackageTags>named string formatter extension NetStandard 2.0</PackageTags>
+		<PackageProjectUrl>https://github.com/preuss/xFormatWith</PackageProjectUrl>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+		<GenerateAssemblyTitleAttribute>false</GenerateAssemblyTitleAttribute>
+		<GenerateAssemblyDescriptionAttribute>false</GenerateAssemblyDescriptionAttribute>
+		<GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
+		<GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
+		<GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
+		<GenerateAssemblyCopyrightAttribute>false</GenerateAssemblyCopyrightAttribute>
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+		<RepositoryUrl>https://github.com/preuss/xFormatWith</RepositoryUrl>
+		<RepositoryType>git</RepositoryType>
+		<PackageReleaseNotes>
+		</PackageReleaseNotes>
+		<SignAssembly>true</SignAssembly>
+		<AssemblyOriginatorKeyFile>KeyPair-Release.snk</AssemblyOriginatorKeyFile>
+		<DelaySign>false</DelaySign>
+
+  </PropertyGroup>
+
+	<ItemGroup>
+	  <None Include="..\.editorconfig" Link=".editorconfig" />
+	</ItemGroup>
+
+
+</Project>
