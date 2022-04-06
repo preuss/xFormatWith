@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-    <TargetFramework>net5.0</TargetFramework>
+	<PropertyGroup>
+		<TargetFramework>net5.0</TargetFramework>
 		<Title>xFormatWith</Title>
 		<Product>xFormatWith</Product>
 		<Description>Simple string eXtension methods for performing {named} {{parameterized}} string formatting, written for NetStandard 2.0</Description>
@@ -30,11 +30,13 @@
 		<SignAssembly>true</SignAssembly>
 		<AssemblyOriginatorKeyFile>KeyPair-Release.snk</AssemblyOriginatorKeyFile>
 		<DelaySign>false</DelaySign>
-
-  </PropertyGroup>
+		
+		<LangVersion>10.0</LangVersion>
+		<Nullable>enable</Nullable>
+	</PropertyGroup>
 
 	<ItemGroup>
-	  <None Include="..\.editorconfig" Link=".editorconfig" />
+		<None Include="..\.editorconfig" Link=".editorconfig"/>
 	</ItemGroup>
 
 
